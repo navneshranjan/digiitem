@@ -1,0 +1,25 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  height: 150px;
+}
+.listItem {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+}
+.logo {
+  color: purple;
+  font-weight: 700;
+  font-size: 50px;
+}
